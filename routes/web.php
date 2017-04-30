@@ -45,7 +45,7 @@ Route::group(['prefix' => 'user'], function(){
 
         Route::get('/signin', [
             'uses' => 'UserController@getSignin',
-            'as' => 'user.signup'
+            'as' => 'user.signin'
         ]);
 
         Route::post('/signin', [

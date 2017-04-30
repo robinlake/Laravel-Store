@@ -21,6 +21,7 @@
           <ul class="dropdown-menu">
             <li><a href="{{ route('user.signup') }}">Signup</a></li>
             <li><a href="{{ route('user.signin') }}">Signin</a></li>
+            li><a href="{{ route('user.profile') }}">Profile</a></li>
             <li role="separator" class="divider"></li>
             <li><a href="{{ route('user.logout') }}">Logout</a></li>
           </ul>
